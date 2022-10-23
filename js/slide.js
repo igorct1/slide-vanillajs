@@ -150,6 +150,7 @@ export class Slide {
 
   init() {
     this.bindEvents();
+    this.transition(true);
     this.addSlideEvent();
     this.slidesConfig();
     this.addResizeEvent();
