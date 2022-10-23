@@ -5,3 +5,4 @@ slideWrapper.init();
 // slideWrapper.changeSlide(0);
 
 slideWrapper.addArrow(".prev", ".next");
+slideWrapper.addControl();
